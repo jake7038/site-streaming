@@ -24,12 +24,12 @@
             <ul class="hero__content__combos">
                 <li class="hero__content__combos__combo">
                     <img src="./dist/images/logos/disney_star_plus.png" alt="logos do combo +/ Disney+ / Star+ ">
-                    <button>Assine Agora</button>
+                    <button class="button">Assine Agora</button>
                     <span class="text">RS 45,99/mês*</span>
                 </li>
                 <li class="hero__content__combos__combo">
                     <img src="./dist/images/logos/disney_star_plus.png" alt="logos do combo +/ Disney+ / Star+ ">
-                    <button>Assine Agora</button>
+                    <button class="button">Assine Agora</button>
                     <span class="text">RS 45,99/mês*</span>
                 </li>
             </ul>
@@ -38,5 +38,112 @@
             </p>
         </div>
     </section>
+
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="mais_no_star" class="shows__tabs__button shows__tabs__button--is-active">
+                Mais no Star+
+            </button>
+            <button data-tab-button="em_breve" class="shows__tabs__button">
+                Em breve
+            </button>
+            <button data-tab-button="popular" class="shows__tabs__button">
+                Mais populares
+            </button>
+        </nav>
+        <ul data-tab-id="mais_no_star" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/spidey.jpg" alt="desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/sem_limites.jpg" alt="sem_limites">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/lobisomem.jpg" alt="lobisomem">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="the_santa_clauses">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/willow.jpg" alt="willow">
+            </li>
+        </ul>
+        <ul data-tab-id="em_breve" class="shows__list ">
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/sem_limites.jpg" alt="sem_limites">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/lobisomem.jpg" alt="lobisomem">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="the_santa_clauses">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/willow.jpg" alt="willow">
+            </li>
+        </ul>
+        <ul data-tab-id="popular" class="shows__list ">
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/desencantada.jpg" alt="desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/sem_limites.jpg" alt="sem_limites">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/lobisomem.jpg" alt="lobisomem">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="the_santa_clauses">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/willow.jpg" alt="willow">
+            </li>
+        </ul>
+    </section>
+
+    <section class="plans">
+        <h2 class="title--big">Escolha seu plano </h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <img src="./dist/images/logos/disneyplus_underline.png" alt="Disney+">
+                <strong class="title--small">R$ 27,90/mês</strong>
+                <p class="text--big">
+                    filmes e séries imperdíveis para todas as idades.
+                </p>
+                <button class="button">Assine Agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="./dist/images/logos/disney_star_plus_sm.png" alt="Disney+">
+                <strong class="title--small">R$ 27,90/mês</strong>
+                <p class="text--big">
+                    filmes e séries imperdíveis para todas as idades.
+                </p>
+                <button class="button">Assine Agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="./dist/images/logos/disney_star_plus_starzplay_underline.png" alt="Disney+">
+                <strong class="title--small">R$ 27,90/mês</strong>
+                <p class="text--big">
+                    filmes e séries imperdíveis para todas as idades.
+                </p>
+                <button class="button">Assine Agora</button>
+            </li>
+        </ul>
+        <p class="text--small">*O preço pode variar dependendo da plataforma que é feito a assinatura </p>
+    </section>
+    
+    <script src="./src/main.js"></script>
 </body>
 </html>
